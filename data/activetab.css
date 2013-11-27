@@ -1,0 +1,5 @@
+.tabbrowser-tab:not([pinned])[selected] {
+  width: 200px !important;
+  max-width: 200px !important;
+  min-width: 200px !important;
+}

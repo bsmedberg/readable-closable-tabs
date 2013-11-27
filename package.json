@@ -1,0 +1,31 @@
+{
+  "name": "readable-closable-tabs",
+  "fullName": "Readable and Closable Tabs",
+  "id": "readable-closable-tabs@benjamin.smedbergs.us",
+  "license": "Apache 2.0",
+  "author": "Benjamin Smedberg <benjamin@smedbergs.us>",
+  "version": "0.1",
+  "description": "Customize the size and close buttons on Firefox tabs",
+  "preferences": [
+    {
+      "name": "closebutton",
+      "title": "Show Close Button On All Tabs",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "widetabs",
+      "title": "Make tab wider so the title is visible",
+      "type": "radio",
+      "value": "alltabs",
+      "options": [
+        { "value": "alltabs", "label": "All tabs" },
+        { "value": "activetab", "label": "Active tab" },
+        { "value": "no", "label": "No thanks" }
+      ]
+    }
+  ],
+  "permissions": {
+    "private-browsing": true
+  }
+}
